@@ -61,8 +61,6 @@ if (playerSide == WEST) then {
 
   removeBackpackGlobal player;
   player addBackpack (selectRandom _pmcBackpack);
-
-  hint "початкове спорядження успішно завантажено"
 };
  
 if (playerSide == EAST) then { 
@@ -73,8 +71,6 @@ if (playerSide == EAST) then {
 
   removeBackpackGlobal player;
   player addBackpack (selectRandom _soverBackpack);
-
-  hint "початкове спорядження успішно завантажено"
 };
 
 call _addWeaponAndAmmo;
