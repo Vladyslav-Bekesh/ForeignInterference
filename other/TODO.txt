@@ -5,8 +5,8 @@ The Sovereign Pact camps(s)
 Teleports
 Automate Trading
 Connect Persist RCO
-PMC "Red team" base
 
 DONE
 PMC Forest devil base
 USMC base
+PMC "Kuma Security" base
