@@ -11,20 +11,23 @@ if (playerSide == east || playerSide == civilian) then {
 	_bomberDot setMarkerTypeLocal "hd_dot";
 	_bomberDot setMarkerTextLocal "Bomber";
 
-	_elektricDot = createMarkerLocal ["Black Market", getPos elektric];
+	_elektricDot = createMarkerLocal ["Electric", getPos elektric];
 	_elektricDot setMarkerTypeLocal "hd_dot";
-	_elektricDot setMarkerTextLocal "Black Market";
+	_elektricDot setMarkerTextLocal "Electric";
 
 	_sovereginPactDot = createMarkerLocal ["Sovereign Pact", getPos soverPactBase];
 	_sovereginPactDot setMarkerTypeLocal "hd_dot";
 	_sovereginPactDot setMarkerTextLocal "Sovereign Pact Base";
+
+	_pickupDot = createMarkerLocal ["Cars", [4821.88, 5076.6]];
+	_pickupDot setMarkerTypeLocal "hd_dot";
+	_pickupDot setMarkerTextLocal "Pickups";
 };
 
 if (playerSide == west || playerSide == civilian) then {
-	_markerstr = createMarkerLocal ["markername", [500, 500]];
-	_markerstr setMarkerShape "RECTANGLE";
-	_markerstr setMarkerSize [500, 500];
-	_markerstr setMarkerSize [500, 500];
+	_pmcSideBaseDot = createMarkerLocal ["PMC 'Forest Devils' side base", getPos pmc_sidebase];
+	_pmcSideBaseDot setMarkerTypeLocal "hd_dot";
+	_pmcSideBaseDot setMarkerTextLocal "PMC 'Forest Devils' side base ";
 };
 
 hint "created";

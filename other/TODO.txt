@@ -1,12 +1,13 @@
 MVP Tasks
 
 TODO
-The Sovereign Pact camps(s)
+
 Teleports
-Automate Trading
+Automate Trading*
 Connect Persist RCO
 
 DONE
 PMC Forest devil base
 USMC base
 PMC "Kuma Security" base
+The Sovereign Pact camp(s)
