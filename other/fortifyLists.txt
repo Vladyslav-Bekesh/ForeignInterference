@@ -1,0 +1,41 @@
+[
+  ["CUP_BOX_US_ARMY_Wps_F", 50],
+  ["ACE_medicalSupplyCrate", 50],
+  ["rhs_7ya37_1_single", 50],
+]
+
+[
+  ["CamoNet_OPFOR_F", 100], 
+  ["Land_CamoNetVar_EAST_EP1", 100], 
+  ["Land_CamoNet_NATO_EP1", 100], 
+  ["Land_SandbagBarricade_01_F", 80], 
+  ["Land_SandbagBarricade_01_hole_F", 80], 
+  ["Land_SandbagBarricade_01_half_F", 80]
+]
+
+[
+  ["CamoNet_INDP_open_F", 100],
+  ["CamoNet_BLUFOR_F", 100],
+  ["CamoNet_BLUFOR_open_F", 100],
+  ["CamoNet_INDP_F", 100],
+  ["CamoNet_wdl_open_F", 100],
+  ["Land_CamoNet_NATO_EP1", 80],
+]
+
+[
+  ["Land_HBarrierTower_F", 350],
+  ["Land_CncBarrierMedium4_F", 150],
+  ["Land_HBarrierWall6_F", 150],
+  ["Land_HBarrierWall_corner_F", 100],
+  ["Land_HBarrierWall4_F", 100],
+]
+
+[
+  ["ACE_ConcertinaWire", 60],
+  ["Fort_RazorWire", 90],
+  ["WireFence", 40],
+  ["Land_CzechHedgehog_01_old_F", 100],
+  ["Land_DragonsTeeth_01_1x1_old_F", 100],
+]
+
+
