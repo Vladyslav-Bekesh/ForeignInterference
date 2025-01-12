@@ -1,12 +1,11 @@
 MVP Tasks
 
 TODO
-
-Teleports
 Automate Trading*
-Connect Persist RCO
 
 DONE
+Teleports
+Connect Persist RCO
 PMC Forest devil base
 USMC base
 PMC "Kuma Security" base
