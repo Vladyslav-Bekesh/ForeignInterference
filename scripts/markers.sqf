@@ -29,5 +29,3 @@ if (playerSide == west || playerSide == civilian) then {
 	_pmcSideBaseDot setMarkerTypeLocal "hd_dot";
 	_pmcSideBaseDot setMarkerTextLocal "PMC 'Forest Devils' side base ";
 };
-
-hint "Markers created";
