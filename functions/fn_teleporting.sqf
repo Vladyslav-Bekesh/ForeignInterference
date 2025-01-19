@@ -6,7 +6,7 @@ params ["_object"];
 if (playerSide == west || playerSide == civilian) then {
 	// main base
 	_action = [ "TP to Main Base", "TP to Main Base", "\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff1_ca.paa", {
-		_player setPos (getPos MainBase);
+		player setPos (getPos MainBase);
 	}, {
 		true
 	}, {}, [], [0, 0, 0], 100] call ace_interact_menu_fnc_createAction;
@@ -14,7 +14,7 @@ if (playerSide == west || playerSide == civilian) then {
 
 	// city
 	_action = [ "TP to Side Base", "TP to Side Base", "\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff1_ca.paa", {
-		_player setPos (getPos SideBase);
+		player setPos (getPos SideBase);
 	}, {
 		true
 	}, {}, [], [0, 0, 0], 100] call ace_interact_menu_fnc_createAction;
@@ -22,7 +22,7 @@ if (playerSide == west || playerSide == civilian) then {
 
 	// side base
 	_action = [ "TP to City Base", "TP to City Base", "\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff1_ca.paa", {
-		_player setPos (getPos CityBase);
+		player setPos (getPos CityBase);
 	}, {
 		true
 	}, {}, [], [0, 0, 0], 100] call ace_interact_menu_fnc_createAction;
@@ -33,7 +33,7 @@ if (playerSide == west || playerSide == civilian) then {
 if (playerSide == east || playerSide == civilian) then {
 	// main base
 	_action = [ "TP to Main Base", "TP to Main Base", "\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff1_ca.paa", {
-		_player setPos (getPos pacMainBase);
+		player setPos (getPos pacMainBase);
 	}, {
 		true
 	}, {}, [], [0, 0, 0], 100] call ace_interact_menu_fnc_createAction;
@@ -41,7 +41,7 @@ if (playerSide == east || playerSide == civilian) then {
 
 	// city
 	_action = [ "TP to City", "TP to City", "\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff1_ca.paa", {
-		_player setPos (getPos City);
+		player setPos (getPos CityPac);
 	}, {
 		true
 	}, {}, [], [0, 0, 0], 100] call ace_interact_menu_fnc_createAction;
@@ -49,7 +49,7 @@ if (playerSide == east || playerSide == civilian) then {
 
 	// pmc kuma
 	_action = [ "TP to PMC 'Kuma Security'", "TP to PMC 'Kuma Security'", "\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_takeOff1_ca.paa", {
-		_player setPos (getPos pmcKumaMainBase);
+		player setPos (getPos pmcKumaMainBase);
 	}, {
 		true
 	}, {}, [], [0, 0, 0], 100] call ace_interact_menu_fnc_createAction;

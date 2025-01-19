@@ -2,14 +2,7 @@ class CfgFunctions {
     #include "functions\functions.hpp"
 };
 
-
-
 respawn = 3;
 respawnDelay = 5;
 respawnOnStart = -1;
 disabledAI = 1;
-respawnTemplates[] = {"Base"};
-
-
-onLoadMission = "Закордонне втручання";
-onLoadIntro = "Хто отримає прихильність цивільних та владу?";
