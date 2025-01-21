@@ -1,7 +1,12 @@
 MVP Tasks
 
 TODO
+Make respawn
+add Adler Trenches
 Automate Trading*
+Make medic bots
+mMake Kuma security bots
+Find mod for diy cars
 
 DONE
 Teleports
