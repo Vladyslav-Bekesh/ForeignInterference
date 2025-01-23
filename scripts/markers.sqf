@@ -1,8 +1,4 @@
 if (playerSide == east || playerSide == civilian) then {
-	_medicDot = createMarkerLocal ["Medic", getPos medic];
-	_medicDot setMarkerTypeLocal "hd_dot";
-	_medicDot setMarkerTextLocal "Medic";
-
 	_blackMarketDot = createMarkerLocal ["Black Market", getPos blackMarket];
 	_blackMarketDot setMarkerTypeLocal "hd_dot";
 	_blackMarketDot setMarkerTextLocal "Black Market";
@@ -25,7 +21,5 @@ if (playerSide == east || playerSide == civilian) then {
 };
 
 if (playerSide == west || playerSide == civilian) then {
-	_pmcSideBaseDot = createMarkerLocal ["PMC 'Forest Devils' side base", getPos pmc_sidebase];
-	_pmcSideBaseDot setMarkerTypeLocal "hd_dot";
-	_pmcSideBaseDot setMarkerTextLocal "PMC 'Forest Devils' side base ";
+
 };

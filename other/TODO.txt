@@ -2,13 +2,14 @@ MVP Tasks
 
 TODO
 Make respawn
-add Adler Trenches
 Automate Trading*
-Make medic bots
+Make medic bot
 mMake Kuma security bots
-Find mod for diy cars
+
 
 DONE
+Find mod for diy cars
+add Adler Trenches
 Teleports
 Connect Persist RCO
 PMC Forest devil base

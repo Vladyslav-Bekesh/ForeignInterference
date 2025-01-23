@@ -49,7 +49,7 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 
-if (playerSide == west) then {
+if (playerSide == west|| playerSide == independent) then {
 	player forceAddUniform (selectRandom pmcUniforms);
 	player addVest (selectRandom pmcVest);
 	player addHeadgear (selectRandom pmcHelmets);
