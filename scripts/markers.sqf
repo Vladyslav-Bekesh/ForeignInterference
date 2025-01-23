@@ -18,8 +18,10 @@ if (playerSide == east || playerSide == civilian) then {
 	_pickupDot = createMarkerLocal ["Cars", [4821.88, 5076.6]];
 	_pickupDot setMarkerTypeLocal "hd_dot";
 	_pickupDot setMarkerTextLocal "Pickups";
+
+	_medicDot = createMarkerLocal ["medic", getPos medic];
+	_medicDot setMarkerTypeLocal "hd_dot";
+	_medicDot setMarkerTextLocal "Medic";
 };
 
-if (playerSide == west || playerSide == civilian) then {
-
-};
+if (playerSide == west || playerSide == civilian) then {};
