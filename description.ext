@@ -5,4 +5,3 @@ class CfgFunctions {
 respawn = 3;
 respawnDelay = 5;
 respawnOnStart = -1;
-disabledAI = 1;

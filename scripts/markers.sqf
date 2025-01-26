@@ -6,22 +6,6 @@ if (playerSide == east || playerSide == civilian) then {
 	_bomberDot = createMarkerLocal ["Bomber", getPos bomber];
 	_bomberDot setMarkerTypeLocal "hd_dot";
 	_bomberDot setMarkerTextLocal "Bomber";
-
-	_elektricDot = createMarkerLocal ["Electric", getPos elektric];
-	_elektricDot setMarkerTypeLocal "hd_dot";
-	_elektricDot setMarkerTextLocal "Electric";
-
-	_sovereginPactDot = createMarkerLocal ["Sovereign Pact", getPos soverPactBase];
-	_sovereginPactDot setMarkerTypeLocal "hd_dot";
-	_sovereginPactDot setMarkerTextLocal "Sovereign Pact Base";
-
-	_pickupDot = createMarkerLocal ["Cars", [4821.88, 5076.6]];
-	_pickupDot setMarkerTypeLocal "hd_dot";
-	_pickupDot setMarkerTextLocal "Pickups";
-
-	_medicDot = createMarkerLocal ["medic", getPos medic];
-	_medicDot setMarkerTypeLocal "hd_dot";
-	_medicDot setMarkerTextLocal "Medic";
 };
 
 if (playerSide == west || playerSide == civilian) then {};
