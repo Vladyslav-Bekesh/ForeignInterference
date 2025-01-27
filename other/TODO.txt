@@ -2,9 +2,13 @@ MVP Tasks
 
 TODO
 Automate Trading*
-Add money
+Make chekpoint from city
+Hideout in city
+Minefield
+
 
 DONE
+Army Checkpoints
 Make medic bot
 Make Kuma security bots
 Make respawn
